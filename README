@@ -1,0 +1,25 @@
+A simple program to send keyboard events automatically.
+It will ask you to enter E and Space keys to get their scan codes.
+Then it will repeat following tasks:
+
+	SendE:		press E key (one time),
+
+	SendJump:	press Space key repeatedly for 34 seconds,
+
+	Wait:		wait for 19 seconds.
+
+
+WHY?
+
+While I was playing Cyberpunk 2077, I found that it is so difficault to
+improve Athletics.  I found a place with short roof, so I could jump
+repeatedly to improve my Atkletics; but it was too slow.  I wrote this
+program to do this job for me :D
+
+
+HOW TO BUILD
+
+You don't need a Visual Studio to build this program.
+You can build it using built-in .Net Framework compiler:
+
+    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /t:winexe keysender.cs
